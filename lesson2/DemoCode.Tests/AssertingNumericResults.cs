@@ -23,7 +23,8 @@ namespace DemoCode.Tests
             
             double result = sut.AddDoubles(1.1, 2.2);
 
-            Assert.NotEqual(3.3, result, 1);
+            //When we assert float, we need to note precision
+            //Assert.Equal(3.3, result);
             Assert.Equal(3.3, result, 1);
         }
     }

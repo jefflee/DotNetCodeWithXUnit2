@@ -1,0 +1,11 @@
+﻿<Window x:Class="DemoWpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBox Text="{Binding Text, Mode=TwoWay}" FontSize="28"></TextBox>
+            <Button Command="{Binding ConvertToUpperCommand}" FontSize="28">Convert</Button>
+        </StackPanel>
+    </Grid>
+</Window>

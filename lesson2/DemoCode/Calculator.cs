@@ -1,4 +1,6 @@
-﻿namespace DemoCode
+﻿using System;
+
+namespace DemoCode
 {
     public class Calculator
     {
@@ -15,6 +17,21 @@
 
         public int Divide(int value, int by)
         {
+            return value / by;
+        }
+
+        public int Divide2(int value, int by)
+        {
+            if (by == 0 )
+            {
+                throw new DivideByZeroException();
+            }
+
+            if (value > 200) // for demo purposes
+            {
+                throw new ArgumentOutOfRangeException("value");
+            }
+
             return value / by;
         }
     }
