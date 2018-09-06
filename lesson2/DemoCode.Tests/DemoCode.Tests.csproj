@@ -63,6 +63,9 @@
     <Reference Include="xunit.execution.dotnet, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
       <HintPath>..\packages\xunit.extensibility.execution.2.4.0\lib\netstandard1.1\xunit.execution.dotnet.dll</HintPath>
     </Reference>
+    <Reference Include="xunit.runner.utility.net35, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.runner.utility.2.4.0\lib\net35\xunit.runner.utility.net35.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="lesson2\AssertingCollections.cs" />
