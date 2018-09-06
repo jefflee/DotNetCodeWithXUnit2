@@ -4,13 +4,13 @@ using Xunit.Abstractions;
 
 namespace DemoCode.Tests
 {
-    public class BeforAndAfterEveryMethodTests : IDisposable
+    public class SetupAndCleanUpTest : IDisposable
     {
         private readonly ITestOutputHelper _testOutput;
 
         private MemoryCalculator _sut;
 
-        public BeforAndAfterEveryMethodTests(ITestOutputHelper helper)
+        public SetupAndCleanUpTest(ITestOutputHelper helper)
         {
             _testOutput = helper;
 

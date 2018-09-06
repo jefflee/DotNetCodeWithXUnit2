@@ -20,12 +20,12 @@ namespace DemoCode.Tests
     }
 
 
-    public class BeforeAndAfterClass : IClassFixture<MemoryCalculatorFixture>
+    public class SetupAndCleanUpOncePerTestClassTest : IClassFixture<MemoryCalculatorFixture>
     {
         private readonly ITestOutputHelper _testOutput;
         private readonly MemoryCalculatorFixture _fixture;        
 
-        public BeforeAndAfterClass(ITestOutputHelper helper, MemoryCalculatorFixture fixture)
+        public SetupAndCleanUpOncePerTestClassTest(ITestOutputHelper helper, MemoryCalculatorFixture fixture)
         {
             _testOutput = helper;
             _fixture = fixture;
