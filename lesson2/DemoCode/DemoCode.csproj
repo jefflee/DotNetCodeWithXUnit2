@@ -43,6 +43,7 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="EnemyFactory.cs" />
+    <Compile Include="MemoryCalculator.cs" />
     <Compile Include="NameJoiner.cs" />
     <Compile Include="NormalEnemy.cs" />
     <Compile Include="PlayerCharacter.cs" />

@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 using Xunit.Abstractions;
 
 namespace DemoCode.Tests.lesson3
@@ -14,7 +15,7 @@ namespace DemoCode.Tests.lesson3
 
         [Fact]
         public void ShouldIncreaseHealthAfterSleeping()
-        {            
+        {
             _testOutput.WriteLine("Creating PlayerCharacter");
             var sut = new PlayerCharacter { Health = 100 };
 
