@@ -36,6 +36,7 @@ namespace DemoCode
         public void Dispose()
         {
             // Clean up resources
+            Console.WriteLine("MemoryCalculator::Dispose");
         }
     }
 }
