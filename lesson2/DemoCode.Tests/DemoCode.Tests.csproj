@@ -76,7 +76,8 @@
     <Compile Include="lesson2\AssertingObjectTypes.cs" />
     <Compile Include="lesson2\AssertingRanges.cs" />
     <Compile Include="lesson2\AssertingStringResults.cs" />
-    <Compile Include="lesson3\MemoryCalculatorTests.cs" />
+    <Compile Include="lesson3\BeforAndAfterEveryMethodTests.cs" />
+    <Compile Include="lesson3\ExecuteOnceInAClass.cs" />
     <Compile Include="lesson3\OutputTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
