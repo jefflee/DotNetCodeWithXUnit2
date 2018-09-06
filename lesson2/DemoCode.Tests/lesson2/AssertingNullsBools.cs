@@ -1,7 +1,6 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 
-namespace DemoCode.Tests
+namespace DemoCode.Tests.lesson2
 {
     public class AssertingNullsBools
     {

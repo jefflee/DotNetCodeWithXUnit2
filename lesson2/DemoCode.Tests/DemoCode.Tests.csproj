@@ -66,12 +66,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssertingCollections.cs" />
+    <Compile Include="CustomCollectionOrdering.cs" />
     <Compile Include="AssertingExceptions.cs" />
     <Compile Include="AssertingNullsBools.cs" />
     <Compile Include="AssertingNumericResults.cs" />
     <Compile Include="AssertingObjectTypes.cs" />
     <Compile Include="AssertingRanges.cs" />
     <Compile Include="AssertingStringResults.cs" />
+    <Compile Include="OutputTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

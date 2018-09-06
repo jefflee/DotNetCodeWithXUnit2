@@ -2,14 +2,13 @@
 using System.Threading;
 using Xunit;
 
-namespace DemoCode.Tests
+namespace DemoCode.Tests.lesson3
 {
     [Trait("Category", "Error Checking")]
-    public class AssertingExceptions
+    public class CustomCollectionOrdering
     {
         [Fact]
-
-        public void ShouldErrorWhenDivideByZero()
+        public void Category_ShouldErrorWhenDivideByZero()
         {
             var sut = new Calculator();
 
@@ -18,7 +17,7 @@ namespace DemoCode.Tests
 
 
         [Fact]
-        public void ShouldErrorWhenNumberTooBig()
+        public void Category_ShouldErrorWhenNumberTooBig()
         {
             var sut = new Calculator();
 
@@ -31,7 +30,7 @@ namespace DemoCode.Tests
 
         [Fact]
         [Trait("Category", "Slow Running")]
-        public void ShouldErrorWhenNumberTooBig_SLOW()
+        public void Category_ShouldErrorWhenNumberTooBig_SLOW()
         {
             var sut = new Calculator();
 
