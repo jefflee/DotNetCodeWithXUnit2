@@ -91,6 +91,9 @@
     <Compile Include="lesson3\SetupAndCleanUpTest.cs" />
     <Compile Include="lesson3\SetupAndCleanUpOncePerTestClassTest.cs" />
     <Compile Include="lesson3\OutputTests.cs" />
+    <Compile Include="lesson4\DataDrivenTest.cs" />
+    <Compile Include="lesson4\ShareDataInMiultipleTests2.cs" />
+    <Compile Include="lesson4\ShareDataInMiultipleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
