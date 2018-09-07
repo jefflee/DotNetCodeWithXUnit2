@@ -69,6 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="lesson2\AssertingCollections.cs" />
+    <Compile Include="lesson3\CrossMultipleClasses\MemoryCalculatorAddTests.cs" />
+    <Compile Include="lesson3\CrossMultipleClasses\MemoryCalculatorCollection.cs" />
+    <Compile Include="lesson3\CrossMultipleClasses\MemoryCalculatorFixture.cs" />
+    <Compile Include="lesson3\CrossMultipleClasses\MemoryCalculatorSubtractTests.cs" />
     <Compile Include="lesson3\CustomCollectionOrdering.cs" />
     <Compile Include="lesson2\AssertingExceptions.cs" />
     <Compile Include="lesson2\AssertingNullsBools.cs" />
@@ -96,6 +100,7 @@
   <ItemGroup>
     <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
