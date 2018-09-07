@@ -92,6 +92,7 @@
     <Compile Include="lesson3\SetupAndCleanUpOncePerTestClassTest.cs" />
     <Compile Include="lesson3\OutputTests.cs" />
     <Compile Include="lesson4\DataDrivenTest.cs" />
+    <Compile Include="lesson4\ExternalData\MemoryCalculatorTests.cs" />
     <Compile Include="lesson4\ShareDataInMiultipleTests2.cs" />
     <Compile Include="lesson4\ShareDataInMiultipleTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -103,6 +104,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="lesson4\ExternalData\TestData.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
