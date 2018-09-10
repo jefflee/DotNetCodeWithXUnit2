@@ -120,6 +120,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="lesson4\ExternalData\TestData.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
